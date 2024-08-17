@@ -3,7 +3,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
 
     const formData = new FormData(this);
 
-    fetch("https://contact-form-dusky-eight.vercel.app/send_email.php", {
+    fetch("https://me-contact.vercel.app/send_email.php", {
         method: "POST",
         body: formData
     })
